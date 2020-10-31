@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+
+.header-list {
+  width: 100%;
+  margin: auto;
+}
+ header img {
+   width: 15%;
+   position: absolute;
+   top:-10px;
+   left: -2.5%;
+
+ }
+
+.header-list ul {
+  display: flex;
+  width:80%;
+  margin: auto;
+  justify-content:space-between;
+}
+
+.header-list li {
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  padding: 2% 0;
+  padding-left: 10%;
+}
+
+.header-list a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block;
+}
+
+.header-list a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.top-wrapper img {
+  width: 100%;
+}
+
+.site-wrapper {
+  background-color:white;
+}
+
+.team-introduction {
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 200%;
+}
+
+
+
+.team-introduction-text {
+  width: 90%;
+  margin: auto;
+
+}
+.team-introduction-text p {
+  text-align: center;
+  line-height: 250%;
+}
+.content-wrapper {
+  background-image: url("https://mybottle-murasaki.com/image/sample2.jpg");
+  background-color:rgba(255,255,255,0.6);
+  background-blend-mode:lighten;
+  background-size: cover;
+}
+
+.content {
+  margin-bottom: 0;
+  padding-bottom:1%;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  margin:5% 0;
+}
+
+.ground-introduction li {
+  text-align: center;
+  list-style: none;
+  font-size: 200%;
+  line-height: 165%;
+  text-decoration: underline;
+}
+
+.name-list {
+  margin-top: 5%;
+}
+
+ .name-list dl {
+  display: flex;
+  border: solid 2px black;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+
+}
+
+dt {
+  width: 30%;
+  margin-left: 0%;
+  border-right: solid 2px black;
+  text-align: center;
+
+}
+
+dd {
+  width: 60%;
+  text-align: center;
+}
+
+.traning-introduction dl {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.time-list {
+}
+
+.time-list dl {
+  display: flex;
+  border: solid 2px black;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+
+}
+
+.time-list dt {
+  border-right: none;
+  width: 50%;
+  margin-left: 0%;
+
+}
+.time-list dd {
+  width: 50%;
+}
+
+.coach-introduction {
+  padding-bottom: 100%;
+}
+
+.social-media-wrapper {
+background-color: gray;
+}
+
+.social-media-list-wrapper ul  {
+  display: flex;
+  width:80%;
+  margin: auto;
+  justify-content:space-between;
+
+
+}
+
+.social-media-wrapper li {
+  margin: 2% 0;
+  font-size: 250%;
+}
